@@ -1,1 +1,1 @@
-#hgweb
+# h and g web
