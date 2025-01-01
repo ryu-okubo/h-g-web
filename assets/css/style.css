@@ -2929,3 +2929,27 @@ Google map
     width: 100%;
   }
 }
+
+.kaisha {
+  width: 100%;
+  }
+  
+  .kaisha th,
+  .kaisha td {
+  border: 1px solid #ccc;
+  padding: 20px;
+  }
+  
+  .kaisha th {
+  font-weight: bold;
+  background-color: #dedede; 
+  }
+  
+  @media screen and (max-width: 767px) {
+  .kaisha,
+  .kaisha tr,
+  .kaisha td,
+  .kaisha th {display:block;}
+  .kaisha th {width:auto;}
+  }
+  
