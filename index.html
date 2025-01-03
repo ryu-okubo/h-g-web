@@ -58,6 +58,8 @@
       <div class="page-loader">
         <div class="loader">Loading...</div>
       </div>
+
+      <!-- ナビゲーションバー -->
       <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
         <div class="container">
           <div class="navbar-header">
@@ -67,7 +69,13 @@
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="about4.html">About</a></li>
-              <li><a href="portfolio_boxed_col_2.html">Works</a></li>
+              <!-- <li><a href="portfolio_boxed_col_2.html">Works</a></li> -->
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Service</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="portfolio_boxed_col_2.html">Works</a></li>
+                  <li><a href="communication.html">Communication</a></li>
+                </ul>
+              </li>
               <li><a href="blog_standard_right_sidebar.html">News</a></li>
               <li><a href="contact2.html">Contact</a></li>
               <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">languages</a>
@@ -83,7 +91,6 @@
       </nav>
       <!-- main banner, with video background -->
       <section class="home-section home-full-height bg-dark-30" id="home" data-background="assets/images/hero-bg.jpg">
-        <!-- <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=bNucJgetMjE', containment:'.home-section', startAt:18, mute:false, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div> -->
         
         <div class="myvideo" style="position:absolute; width: 100%; left: 0px; top: 0px; overflow: hidden;">
           <video id="BGvideo" autoplay muted loop playsinline style="min-width: 100%; filter: brightness(70%);">
@@ -166,8 +173,8 @@
               <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="features-item">
                   <div class="features-icon"><span class="icon-pricetags"></span></div>
-                  <h3 class="features-title font-alt">Sales</h3>
-                  <p>お客様の多様なニーズに応えるため、幅広い流通チャネルを活用しています。自社の販売網と強固なパートナーシップを通じて、高品質な製品をタイムリーに提供し、顧客満足度を高めることを目指しています。また、顧客の声を商品開発に反映させることで、さらなる成長を図っています。</p>
+                  <h3 class="features-title font-alt">Culture Communication</h3>
+                  <p>私たちの文化交流サービスは、異なる文化や価値観に触れる場を提供し、多様な視点を取り入れることで、個人や企業の成長を支援します。対面での信頼関係を重視し、深い絆を築くことで、グローバルな協力関係を広げるお手伝いをします。</p>
                 </div>
               </div>
             </div>
@@ -204,32 +211,32 @@
               <div class="col-sm-12">
                 <ul class="filter font-alt" id="filters">
                   <li><a class="current wow fadeInUp" href="#" data-filter="*">All</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".illustration" data-wow-delay="0.2s">Illustration</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".marketing" data-wow-delay="0.4s">Marketing</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".photography" data-wow-delay="0.6s">Photography</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".webdesign" data-wow-delay="0.6s">Web Design</a></li>
+                  <li><a class="wow fadeInUp" href="#" data-filter=".pet" data-wow-delay="0.2s">ペット用品</a></li>
+                  <li><a class="wow fadeInUp" href="#" data-filter=".medical" data-wow-delay="0.4s">医療用品</a></li>
+                  <li><a class="wow fadeInUp" href="#" data-filter=".daily" data-wow-delay="0.6s">日用品</a></li>
+                  <li><a class="wow fadeInUp" href="#" data-filter=".industrial" data-wow-delay="0.6s">工業用品</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
-            <li class="work-item illustration webdesign"><a href="portfolio_single_featured_image1.html">
+            <li class="work-item pet"><a href="pet_sheets.html">
                 <div class="work-image"><img src="assets/images/works/works1.png" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
-                  <h3 class="work-title">Corporate Identity</h3>
-                  <div class="work-descr">Illustration</div>
+                  <h3 class="work-title">ペットシーツ</h3>
+                  <div class="work-descr">ペット用品</div>
                 </div></a></li>
-            <li class="work-item marketing photography"><a href="portfolio_single_featured_image2.html">
-                <div class="work-image"><img src="assets/images/works/works2.png" alt="Portfolio Item"/></div>
+            <li class="work-item medical"><a href="medical_sheets.html">
+                <div class="work-image"><img src="assets/images/works/works21.png" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
-                  <h3 class="work-title">Bag MockUp</h3>
-                  <div class="work-descr">Marketing</div>
+                  <h3 class="work-title">医療用シーツ</h3>
+                  <div class="work-descr">医療用品</div>
                 </div></a></li>
-            <li class="work-item illustration photography"><a href="portfolio_single_featured_slider1.html">
+            <li class="work-item pet daily"><a href="cart.html">
                 <div class="work-image"><img src="assets/images/works/works11.png" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
-                  <h3 class="work-title">Disk Cover</h3>
-                  <div class="work-descr">Illustration</div>
+                  <h3 class="work-title">Pet Buggy</h3>
+                  <div class="work-descr">ペット用品</div>
                 </div></a></li>
             <li class="work-item marketing photography"><a href="portfolio_single_featured_slider2.html">
                 <div class="work-image"><img src="assets/images/works/works12.png" alt="Portfolio Item"/></div>
